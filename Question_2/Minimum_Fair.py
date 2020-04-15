@@ -43,6 +43,6 @@ if __name__ == "__main__":
 
     if len(CITY_FROM) == len(CITY_TO):
         MIN = find_min_cost(CITY_FROM, CITY_TO, TOTAL_COST, MIN, INDEX, COST_TABLE)
-        print('Minimum cost is:', MIN)
+        print('Minimum cost is: ', MIN)
     else:
         print("Invalid Input")
